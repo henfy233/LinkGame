@@ -1,0 +1,26 @@
+package com.icss.linkgame.view;
+
+import java.awt.Dimension;
+
+import javax.swing.*;
+
+public class MainFrame extends JFrame {
+	final int width = 400; //窗体宽度
+	final int height = 400; //窗体高度
+	public MainFrame(){
+		Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize(); //得到屏幕的尺寸
+		
+		this.resize(width+15, height+40);
+		this.setLocation((screenSize.width-width)/2, (screenSize.height-height)/2);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		this.getContentPane().setLayout(null);
+		
+		for(int i=0;i<16;++i){
+			JButton button = new JButton();
+			button.setBounds(i%4*100, i/4*100, 100, 100);
+			this.getContentPane().add(button);
+		}
+		
+	}
+}

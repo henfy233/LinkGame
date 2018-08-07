@@ -1,0 +1,7 @@
+package com.icss.linkgame.view;
+
+import javax.swing.JFrame;
+
+public class MainFrame extends JFrame {
+
+}

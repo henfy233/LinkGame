@@ -1,0 +1,16 @@
+package com.icss.linkgame.view;
+
+import java.awt.*;
+
+import javax.swing.JFrame;
+
+public class MainFrame extends JFrame {
+	Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize(); //得到屏幕的尺寸
+	final int width = 400; //窗体宽度
+	final int height = 400; //窗体高度
+	public MainFrame(){
+		this.resize(width, height);
+		this.setLocation((screenSize.width-width)/2, (screenSize.height-height)/2);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+}
