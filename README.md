@@ -3,7 +3,7 @@ java上课做的连连看，界面功能简洁，仅供参考，欢迎交流
 
 界面
 --
-![游戏界面](https://img-blog.csdn.net/20180808101629559?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MjM4MTM5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![游戏界面](https://img-blog.csdn.net/20180808093312708?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4MjM4MTM5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
  1. 本项目用的是二维数组记录图片按钮，实在觉得一维数组来写不好维护。
  2. 分数是可以记录的，但我对文件输入输出流不太懂，这个可以尝试去弄出一个排行榜。
